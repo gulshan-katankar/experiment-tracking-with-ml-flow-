@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/gulsh/OneDrive/Desktop/ml_ops/experiment-tracking-with-ml-flow-/mlruns/3/models/m-f1f459f8134b463b9055ca93184c7173/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-f1f459f8134b463b9055ca93184c7173
+model_size_bytes: 317843
+model_uuid: m-f1f459f8134b463b9055ca93184c7173
+prompts: null
+run_id: 19dbb81afcd9441484c6c6d915863c1b
+utc_time_created: '2026-02-20 16:43:12.687760'
